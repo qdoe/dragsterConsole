@@ -34,7 +34,6 @@ std::bitset<5> TeensyReader::read() {
 	DWORD br = 0;
 	DWORD dwCMS = 0;
 
-//	if (PurgeComm(serialHandle, PURGE_RXCLEAR|PURGE_RXABORT|PURGE_TXCLEAR|PURGE_TXABORT)<= 0) std::cout << "FUCK" << std::endl;
 	WaitCommEvent(serialHandle, &dwCMS, 0);
 	
 	ReadFile(serialHandle, &input, 1, &br, NULL);
