@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="atari2.cpp">
+    <ClCompile Include="dragsterConsole.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TeensyReader.cpp">
@@ -29,11 +29,8 @@
     <ClInclude Include="TeensyReader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="atari2.h">
+    <ClInclude Include="dragsterConsole.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="T:\atarireader\atarireader.ino" />
   </ItemGroup>
 </Project>
