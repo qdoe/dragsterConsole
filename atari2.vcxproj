@@ -149,6 +149,9 @@
     <ClInclude Include="atari2.h" />
     <ClInclude Include="TeensyReader.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="T:\atarireader\atarireader.ino" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
