@@ -123,7 +123,7 @@ bool next(dragster& a, std::bitset<5> i) {
     a.tach = a.ptach;
     if (a.clutch || a.gear == 0) {
         a.tach += ((i[BUTTON]) ? 3 : -3);
-    } else if (i[BUTTON] && a.adv()) {
+    } else if (a.adv()) {
         a.tach += ((i[BUTTON]) ? 1 : -1);
     }
     if (a.tach < 0) a.tach = 0;
